@@ -1,19 +1,25 @@
 # Main Roads Integrity Analytics Demonstration
 
-This project simulates a simplified end-to-end integrity analytics pipeline tailored for a public sector environment (e.g., road incident auditing, internal access flagging, metadata traceability).
+This repository demonstrates an end-to-end integrity analytics pipeline designed for public sector applications such as internal audit, incident risk reporting, and stakeholder dashboarding. The project simulates a real-world data pipeline using Python, SQL, and Power BI-compatible outputs.
 
-## Features
+🔍 **This project was created to support my application for the Integrity Analytics Coordinator position at Main Roads WA (May 2025), and highlights my technical capabilities in ETL design, data governance, audit traceability, and cross-functional insight generation.**
 
-- Extract–Transform–Load (ETL) pipeline using Python
-- Simulated access-level tagging and data masking
-- Built-in anomaly detection (e.g., repeated access from same account, time-based irregularities)
-- Versioned logging of data changes (audit trail)
-- Output-ready CSV for visualization in Power BI or Python
+## Key Features
 
-## Tools Used
+- Structured ETL pipeline using Python (Pandas, SQLAlchemy)
+- Simulated audit event log (`incident_log.csv`)
+- Data cleaning and access-level tagging logic
+- Version control and audit trail using JSON
+- Output-ready datasets for Power BI or matplotlib dashboards
+- Modular script design: `extract.py`, `transform.py`, `load.py`
 
-- Python (Pandas, SQLAlchemy)
-- SQLite (as lightweight SQL backend)
-- Matplotlib for quick dashboarding (can be replaced by Power BI)
+## Technical Stack
 
-🔍 *This project was developed to demonstrate relevant capabilities for the Integrity Analytics Coordinator position at Main Roads WA (May 2025).*
+- Python 3.10
+- Pandas, NumPy
+- SQLAlchemy + SQLite
+- Matplotlib
+- Power BI (optional export)
+
+## File Structure
+
