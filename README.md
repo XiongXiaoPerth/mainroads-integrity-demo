@@ -2,7 +2,7 @@
 
 This repository demonstrates an end-to-end integrity analytics pipeline designed for public sector applications such as internal audit, incident risk reporting, and stakeholder dashboarding. The project simulates a real-world data pipeline using Python, SQL, and Power BI-compatible outputs.
 
-🔍 **This project was created to support my application for the Integrity Analytics Coordinator position at Main Roads WA (May 2025), and highlights my technical capabilities in ETL design, data governance, audit traceability, and cross-functional insight generation.**
+🔍 This project was created to support my application for the Integrity Analytics Coordinator position at Main Roads WA (May 2025), and highlights my technical capabilities in ETL design, data governance, audit traceability, and cross-functional insight generation.
 
 ## Key Features
 
@@ -23,16 +23,17 @@ This repository demonstrates an end-to-end integrity analytics pipeline designed
 
 ## File Structure
 
+```
 mainroads-integrity-demo/
-├── data/ # Raw input data (e.g., incident_log.csv)
-├── scripts/ # Modular ETL scripts
-│ ├── extract.py
-│ ├── transform.py
-│ └── load.py
-├── dashboards/ # Optional Power BI or matplotlib outputs
-├── audit_log/ # Audit trail metadata (e.g., version_log.json)
-└── README.md # Project overview and purpose
-
+├── data/                # Raw input data (e.g., incident_log.csv)
+├── scripts/             # Modular ETL scripts
+│   ├── extract.py
+│   ├── transform.py
+│   └── load.py
+├── dashboards/          # Optional Power BI or matplotlib outputs
+├── audit_log/           # Audit trail metadata (e.g., version_log.json)
+└── README.md            # Project overview and purpose
+```
 
 ## Example Use Cases
 
