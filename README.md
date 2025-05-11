@@ -23,3 +23,24 @@ This repository demonstrates an end-to-end integrity analytics pipeline designed
 
 ## File Structure
 
+mainroads-integrity-demo/
+├── data/ # Raw input data (e.g., incident_log.csv)
+├── scripts/ # Modular ETL scripts
+│ ├── extract.py
+│ ├── transform.py
+│ └── load.py
+├── dashboards/ # Optional Power BI or matplotlib outputs
+├── audit_log/ # Audit trail metadata (e.g., version_log.json)
+└── README.md # Project overview and purpose
+
+
+## Example Use Cases
+
+- Detecting excessive access to sensitive data areas (e.g., repeated logins)
+- Flagging unusual time-based or role-inconsistent access patterns
+- Supporting integrity monitoring and ethical risk reporting across departments
+- Providing data traceability for internal reviews and external audits
+
+---
+
+This demonstration highlights core capabilities aligned with public sector analytics responsibilities: data reliability, ethical transparency, and risk-informed reporting. I welcome further opportunities to apply these methods within an organisational integrity and governance context.
