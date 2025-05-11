@@ -1,0 +1,6 @@
+incident_id,employee_id,access_time,access_type,data_area,notes
+1001,E001,2025-05-01 09:00,read,Finance,
+1002,E002,2025-05-01 09:10,read,HR,Repeated access
+1003,E003,2025-05-01 11:00,write,Infrastructure,Data modified
+1004,E002,2025-05-01 13:00,read,Finance,Routine check
+1005,E001,2025-05-01 18:00,write,HR,High sensitivity
