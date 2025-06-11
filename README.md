@@ -1,47 +1,26 @@
-# Main Roads Integrity Analytics Demonstration
+# Main Roads Integrity Demo
 
-This repository demonstrates an end-to-end integrity analytics pipeline designed for public sector applications such as internal audit, incident risk reporting, and stakeholder dashboarding. The project simulates a real-world data pipeline using Python, SQL, and Power BI-compatible outputs.
+This is a demonstration repository created for the Main Roads WA Integrity Analytics Coordinator application.
 
-🔍 This project was created to support my application for the Integrity Analytics Coordinator position at Main Roads WA (May 2025), and highlights my technical capabilities in ETL design, data governance, audit traceability, and cross-functional insight generation.
+The purpose is to provide an example of:
+- Basic ETL (Extract-Transform-Load) scripting to process integrity-related data
+- Simple audit traceability for version control
+- Dashboard-ready reporting outputs for data validation and monitoring
 
-## Key Features
+**Disclaimer:** This repository is a simulated demonstration using mock data and simplified scripts.
 
-- Structured ETL pipeline using Python (Pandas, SQLAlchemy)
-- Simulated audit event log (`incident_log.csv`)
-- Data cleaning and access-level tagging logic
-- Version control and audit trail using JSON
-- Output-ready datasets for Power BI or matplotlib dashboards
-- Modular script design: `extract.py`, `transform.py`, `load.py`
+## Components
 
-## Technical Stack
+- `data/incident_log.csv`: Sample raw data (simulated incident records)
+- `scripts/extract.py`: Simulated data extraction script
+- `scripts/transform.py`: Example transformation script to clean and summarize data
+- `scripts/load.py`: Example load script to generate dashboard-ready summary
+- `audit_log/version_log.json`: Example audit log with version traceability
+- `dashboard_summary.csv`: Example summary file ready for Power BI/Tableau/dashboard tools
 
-- Python 3.10
-- Pandas, NumPy
-- SQLAlchemy + SQLite
-- Matplotlib
-- Power BI (optional export)
+## Example Workflow
 
-## File Structure
-
-```
-mainroads-integrity-demo/
-├── data/                # Raw input data (e.g., incident_log.csv)
-├── scripts/             # Modular ETL scripts
-│   ├── extract.py
-│   ├── transform.py
-│   └── load.py
-├── dashboards/          # Optional Power BI or matplotlib outputs
-├── audit_log/           # Audit trail metadata (e.g., version_log.json)
-└── README.md            # Project overview and purpose
-```
-
-## Example Use Cases
-
-- Detecting excessive access to sensitive data areas (e.g., repeated logins)
-- Flagging unusual time-based or role-inconsistent access patterns
-- Supporting integrity monitoring and ethical risk reporting across departments
-- Providing data traceability for internal reviews and external audits
-
----
-
-This demonstration highlights core capabilities aligned with public sector analytics responsibilities: data reliability, ethical transparency, and risk-informed reporting. I welcome further opportunities to apply these methods within an organisational integrity and governance context.
+```bash
+python extract.py
+python transform.py
+python load.py

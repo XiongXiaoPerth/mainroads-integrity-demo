@@ -1,4 +1,7 @@
-# Placeholder for extract.py
+import pandas as pd
 
-if __name__ == '__main__':
-    pass
+# Simulate extraction step
+df = pd.read_csv("../data/incident_log.csv")
+print(f"Extracted {len(df)} records.")
+
+df.to_csv("../data/temp_extracted.csv", index=False)

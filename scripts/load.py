@@ -1,4 +1,2 @@
-# Placeholder for load.py
-
-if __name__ == '__main__':
-    pass
+# Simulate loading step
+print("Loading dashboard_summary.csv to dashboard system (simulated).")
